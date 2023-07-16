@@ -32,6 +32,7 @@ Inheritance in Java is a mechanism in which one object acquires all the properti
 Where one class share the structures and behavior defined another class . 
  
 (a). Inheritance represents the <IS-A> relationship which is also known as a parent-child relationship.
+
 (b).If a class have an entity reference, it is known as Aggregation. Aggregation represents <HAS-A> relationship.
 
 
