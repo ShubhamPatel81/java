@@ -31,9 +31,9 @@ Levels are - Public , Protected , Private , Internal and Protected Internal
 Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object.
 Where one class share the structures and behavior defined another class . 
  
-(a). Inheritance represents the <IS-A> relationship which is also known as a parent-child relationship.
+(a). Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
 
-(b).If a class have an entity reference, it is known as Aggregation. Aggregation represents <HAS-A> relationship.
+(b).If a class have an entity reference, it is known as Aggregation. Aggregation represents HAS-A relationship.
 
 
 ### Polymorphism 
