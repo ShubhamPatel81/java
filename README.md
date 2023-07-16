@@ -39,6 +39,6 @@ Where one class share the structures and behavior defined another class .
 ### Polymorphism 
 Polymorphism  is assigning behavior or value in a subclass to something that was already declear in the main class . Simply , Polymorphism takes more than one forms .
 
-## Method-Overloading is a class has multiple methods having same name but different in parameters.
-## Method-Overriding  If subclass (child class) has the same method as declared in the parent class
+####### Method-Overloading is a class has multiple methods having same name but different in parameters.
+####### Method-Overriding  If subclass (child class) has the same method as declared in the parent class
 
