@@ -42,6 +42,24 @@ public class singly_linked_list {
         size++;
     }
 
+    // Insertiong at a particular Index
+    public void insert_index(int value , int index){
+        if(index ==0){
+            insertFirst(value);
+            return;
+        }
+        if(index== size){
+            insert_last(value);
+            return;
+        }
+        Node temp = head;
+        for(int i =1; i<index;i++){
+            temp = temp.next;
+        }
+        Node node = new Node(value, temp.next);
+        temp.next = node;
+        size++;
+    }
     //Creating the constructor of the input values
     private class Node{
         private int value;
@@ -67,6 +85,7 @@ public class singly_linked_list {
    sl.insertFirst(7);
    sl.insertFirst(9);
    sl.insert(1221);
+   sl.insert_index(12121212, 3);
    sl.display();
 
     }
